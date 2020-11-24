@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #262626;
+
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* padding-top: 50px; */
+
+}
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 20px 0;
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+.menu__list {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+
+
+
+}
+.menu__item {
+    display:inline-block;
+    margin-left: 40px;
+
+}
+.menu__link {
+    text-decoration: none;
+    color: #262626;
+    border-top: 3px solid transparent;
+
+}
+.menu__link:hover {
+    /*  color: #cecece;Цвет посещенных ссылок */
+    border-top: 3px solid #ff6033;
+
+   }
+.menu__link:active {
+    border-top: 3px solid #ff6033;
+   }
+
+
+.fresh-life__title {
+    font-weight: 900;
+    font-size: 60px;
+}
+.section_fresh {
+    background-color: #f9f8fb;
+    background-image: url("./img/img-1.png");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    height: 1000px;
+}
+.fresh-life {
+    margin: 260px 0;
+    width: 370px;
+}
+.fresh-life__button {
+    padding: 20px 27px;
+    background-color: #ff6033;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.fresh-life__button:hover {
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.fresh-life__button:active{
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.button-scroll {
+    width: 24px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('./img/scroll.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    outline: none;
+    border: none;
+    margin: 0 auto;   
+}
+.button-scroll:hover  {
+    transform: scale(1.05);
+}
+  
+.section-about-us {
+    height: 700px;
+    background-color: #00b8b8;
+    background-image: url("./img/img-2.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-top: 184px;
+    padding-left: 666px;
+}
+.about-us {
+    width: 500px;
+    height: 270px;
+    color: #fff;
+
+}
+.about-us__title {
+    font-weight: 900;
+    font-size: 90px;
+    margin: 0;
+}
